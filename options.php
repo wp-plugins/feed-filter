@@ -245,7 +245,7 @@ $controls->options['ip_good'] = implode("\r", $controls->options['ip_good']);
 
         <h3>Logs</h3>
         <p>
-        <?php $nc->select('log', array(0=>'no', 1=>'yes')); ?> enable tracking of feed readers? (the file is "referrers.txt" and can grow quickly
+        <?php $controls->select('log', array(0=>'no', 1=>'yes')); ?> enable tracking of feed readers? (the file is "referrers.txt" and can grow quickly
         but helps in identify the reader IPs)<br />
             <?php $controls->button('clear', 'Clear'); ?>
         </p>

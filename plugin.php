@@ -93,7 +93,7 @@ class FeedFilter {
     }
 
     function hook_template_redirect() {
-        if (!is_feed())
+        if (!is_feed() ||  $this->get_option('log', 0) == 0)
             return;
 
         file_put_contents(dirname(__FILE__) . '/referrers.txt',
