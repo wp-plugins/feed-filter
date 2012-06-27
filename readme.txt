@@ -1,10 +1,9 @@
-=== Include Me ===
+=== Feed Filter ===
 Tags: feed, filter, spam, protection, delay
 Requires at least: 2.5
-Tested up to: 3.0.4
+Tested up to: 3.4
 Stable tag: trunk
 Donate link: http://www.satollo.net/donations
-Contributors: satollo
 
 Feed Filter changes the feed content based on consumer's IP (so you can send bad content to content thieves).
 
